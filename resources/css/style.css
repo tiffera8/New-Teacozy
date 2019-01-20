@@ -1,0 +1,167 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: seashell;
+}
+
+/* header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  font-size: 22px;
+  font-family: Helvetica;
+  background-color: black;
+  text-align: left;
+  border-bottom: 1px solid seashell
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  padding-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 30px;
+  text-decoration: underline;
+}
+
+/* main banner */
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-top: 69px;
+}
+
+.image-content {
+  display: block;
+  background-color: black;
+  width: 1200px;
+  height: 110px;
+  margin-top: 295px;
+}
+
+.image-content .mission {
+  padding-top: 10px;
+}
+
+/* tea of month section */
+
+.container-tea {
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+
+.title {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  line-height: .75;
+}
+
+.tea-cup {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tea-cup span h4 {
+  line-height: .15;
+}
+
+/* locations section */
+
+.locations {
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  padding-top: 35px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  position: relative;
+  top: 290px;
+  margin: 0 auto;
+}
+
+.text-content {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+.line {
+  line-height: 1.95;
+}
+
+/* footer */
+
+.footer {
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  top: 275px;
+}
+
+.lines {
+  padding-bottom: 15px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  height: 50px;
+  width: 100%;
+}
